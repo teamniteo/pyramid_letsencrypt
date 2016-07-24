@@ -1,4 +1,4 @@
-
+from . import foo
 
 def includeme(config):
     """ ctivate ``pyramid_letsencrypt``.

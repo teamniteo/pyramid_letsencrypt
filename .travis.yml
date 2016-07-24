@@ -8,8 +8,6 @@ matrix:
           env: TOXENV=py27
         - python: 3.5
           env: TOXENV=py35
-        - python: 3.5
-          env: TOXENV=py35,py2-cover,py3-cover,coverage
 
 install:
   - travis_retry pip install tox
