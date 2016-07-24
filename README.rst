@@ -1,3 +1,7 @@
+.. image:: https://travis-ci.org/niteoweb/pyramid_letsencrypt.svg?branch=master
+    :target: https://travis-ci.org/niteoweb/pyramid_letsencrypt
+
+
 pyramid_letsencrypt
 ====================
 
@@ -5,12 +9,22 @@ pyramid_letsencrypt
 validation content in your Pyramid project, with just a config entry.
 
 This plugin is needed for deployment scenarios where you do not have a
-reverse proxy (think Nginx and the lot) in from of your Pyramid app to serve
-static content. On of such scenarios is hosting your Pyramid app on Heroku.
+reverse proxy (think Nginx and the lot) in front of your Pyramid app to serve
+static content. One of such scenarios is hosting your Pyramid app on Heroku.
 
 Usage
 -----
 
+Include ``pyramid_letsencrypt`` in your project and set the
+``letsencrypt.content`` setting:
+
+.. code-block:: ini
+
+    pyramid.includes =
+        ...
+        pyramid_letsencrypt
+
+    letsencrypt.content = FOO.BAR
 
 
 Testing & development
