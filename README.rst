@@ -50,3 +50,9 @@ then run the tests.
     $ python3 -m venv env
     $ env/bin/pip install -e ".[testing]"
     $ env/bin/nosetests
+
+We're hiring!
+=============
+
+At Niteo we regularly contribute back to the Open Source community. If you do too, we'd like to invite you to `join our team
+<https://niteo.co/careers/>`_!
