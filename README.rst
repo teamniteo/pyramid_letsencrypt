@@ -1,5 +1,5 @@
-.. image:: https://travis-ci.org/niteoweb/pyramid_letsencrypt.svg?branch=master
-    :target: https://travis-ci.org/niteoweb/pyramid_letsencrypt
+.. image:: https://travis-ci.org/teamniteo/pyramid_letsencrypt.svg?branch=master
+    :target: https://travis-ci.org/teamniteo/pyramid_letsencrypt
 
 
 pyramid_letsencrypt
